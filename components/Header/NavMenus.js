@@ -1,6 +1,6 @@
 const style = {
   list: `flex space-x-10`,
-  element: `font-semibold text-gray-600 transition-all hover:text-black dark:text-gray-300 hover:dark:text-white`,
+  element: `font-bold text-[#c8cacd] transition-all hover:text-white cursor-pointer`,
 }
 
 const NavMenus = ({ menus }) => {
