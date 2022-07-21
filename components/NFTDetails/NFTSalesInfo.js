@@ -14,7 +14,7 @@ const style = {
   priceContainer: `flex items-left space-x-2`,
   price: `text-3xl font-bold`,
   buttonsContainer: `flex space-x-4`,
-  button: `flex 2-[14rem] items-left cursor-pointer space-x-4 rounded-lg py-2 text-white`,
+  button: `flex w-[14rem] items-center cursor-pointer space-x-4 rounded-lg py-2 text-white`,
   purchaseButton: `bg-blue-500`,
   offerButton: `border border-black bg-[#363840]`,
   buttonIcon: `h-6 w-6`
@@ -57,7 +57,7 @@ const NFTSalesInfo = ({price, buyNFT}) => {
             <span className = 'text-lg font-semibold'>Buy Now</span>
           </div>
           <div className = {`${style.button} ${style.offerButton}`}>
-            <BsFillTagFill className = {style.butoonIcon} />
+            <BsFillTagFill className = {style.buttonIcon} />
             <span className = 'text-lg font-semibold'>Make Offer</span>
           </div>
         </div>
